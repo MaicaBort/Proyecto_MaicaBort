@@ -6,5 +6,13 @@
 header {
   background-color: #E0CCBE;
 }
+header nav div div a {
+  font-weight: 800;
+}
+header nav div div a .logotipo {
+  width: 85px;
+  height: 90px;
+  border-radius: 90px;
+}
 
 /*# sourceMappingURL=style.css.map */

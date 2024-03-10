@@ -2,15 +2,18 @@ $color-fondo-header: #E0CCBE;
 
 header{
     background-color: $color-fondo-header;
-    }
     nav{
         div{
             div{
-                div{
-                    button{
-                        align-items: center;
+                a{
+                    font-weight: 800;
+                    .logotipo{
+                        width: 85px;
+                        height: 90px;
+                        border-radius: 90px;
                     }
                 }
             }
         }
     }
+}
