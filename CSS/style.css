@@ -46,6 +46,21 @@ main .carousel-item {
   grid-template-columns: repeat(4, 1fr);
   gap: 10px;
 }
+@media screen and (max-width: 768px) {
+  .gallery {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+@media screen and (max-width: 576px) {
+  .gallery {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media screen and (max-width: 400px) {
+  .gallery {
+    grid-template-columns: 1fr;
+  }
+}
 
 .gallery-item {
   position: relative;
@@ -55,6 +70,11 @@ main .carousel-item {
   width: 100%;
   height: auto;
   transition: transform 0.3s ease;
+}
+@media screen and (max-width: 576px) {
+  .gallery-item img {
+    width: 100%;
+  }
 }
 
 .gallery-item:hover img {

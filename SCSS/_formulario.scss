@@ -22,10 +22,9 @@ main {
             margin-bottom: 10px;
             border: 1px solid #ccc;
             border-radius: 5px;
-            box-sizing: border-box; // Incluir el padding y el border en el ancho total
+            box-sizing: border-box; 
         }
     
-        // Estilos para el botón de enviar
         button[type="submit"] {
             width: 100%;
             padding: 10px;
