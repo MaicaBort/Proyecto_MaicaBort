@@ -30,4 +30,9 @@ footer .logo {
   height: 50px;
 }
 
+main .carousel-item {
+  width: 50%;
+  height: 50%;
+}
+
 /*# sourceMappingURL=style.css.map */
